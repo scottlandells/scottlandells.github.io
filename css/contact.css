@@ -1,0 +1,178 @@
+/* CSS Document */
+@font-face {
+    font-family: Univers55Roman;
+    src: url("Univers55Roman.otf");
+}
+
+@font-face {
+    font-family: Univers55RomanItalic;
+    src: url(Univers55RomanItalic.otf);
+}
+
+@font-face {
+    font-family: Univers85ExtraBlack;
+    src: url("Univers85ExtraBlack.otf")
+}
+
+@font-face {
+    font-family: Univers85ExtraBlackItalic;
+    src: url("Univers85BlackItalic")
+}
+
+body {
+    background-color: #422B25;
+    background-size: cover;
+    background-attachment: scroll;
+    color: #FFFFFF;
+}
+
+header {
+    margin-top: 0;
+    margin-bottom: 3%;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 16px;
+    text-align: center;
+    background-color: #AD3C1E;
+    height: 100px;
+}
+
+header img {
+    float: left;
+}
+
+main {
+    margin-top: 150px;
+    /* float: left; */
+    margin-left: 57px;
+}
+
+.rectangletop {
+    height: 50px;
+    width: 100%;
+    background-color:#FFFFFF;
+    /* margin: -25 0; */
+  }
+
+.rectanglemiddle {
+    height: 50px;
+    width: 100%;
+    background-color:#FFFFFF;
+    margin: 0 0;
+  }
+
+.rectanglebottom {
+    height: 50px;
+    width: 100%;
+    background-color:#FFFFFF;
+    margin: 300px 0;
+  }
+
+h1 {
+    display: block;
+    font-family: Univers85ExtraBlack, Arial, Helvetica, sans-serif;
+    /* font-size: 400px */
+    /* text-align: left; */
+    /*font-style: large;
+    font-size: 100%; 
+    letter-spacing: 3px;
+    word-spacing: 2px;*/
+    height: 8px;
+    /* font-weight: 400; */
+    padding-bottom: 10px;
+}
+
+p {
+    font-family: Univers85ExtraBlack, Arial, Helvetica, sans-serif;
+}
+
+#cupcake {
+    float: right;
+    width: 500px;
+}
+
+h2  {
+    font-family: Univers85ExtraBlack, Arial, Helvetica, sans-serif;
+    display: inline;
+    color: #f5b142;
+    /* padding-top: 10px; */
+    /* font-size: 150%; */
+    /* margin-left: 2px; */
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    /* letter-spacing: 1px; */
+    
+}
+
+/* main div {
+    margin: 0 0 100 0;
+    float: right;
+
+} */
+
+#halfdonut {
+    float: right;
+}
+
+#delightlogo {
+    margin-left: 42px;
+    margin-top: -205px;
+}
+
+#commentForm {
+    width: 25%;
+    padding-left: 4em;
+}
+
+#contactInfo {
+    width: 20%;
+    padding-left: 10em;
+}
+
+#map {
+    width: 600px;
+    height: 450px;
+    /* border: darkslateblue 3px groove;
+    border-radius: 18px; */
+    padding: 2px;
+    margin-top: 12em;
+
+}
+
+/* iframe {
+    border-radius: 18px;
+} */
+
+form {
+    /* border: 6px groove darkslateblue; */
+    /* border-radius: 18px; */
+    padding-top: 2em;
+}
+
+input, textarea {
+    border: none;
+    /* border-radius: 6px; */
+    margin: 5%;
+    line-height: 1.5em;
+    width: 90%;
+}
+
+textarea {
+    height: 6em;
+}
+
+label {
+    padding: 1.5em;
+}
+
+#button {
+    width: 50%;
+    background-color: #B9B2E3;;
+    float: right;
+    font-size: 120%;
+}
+
+pre {
+    font-size: 120%;
+}
+

@@ -1,0 +1,182 @@
+/* CSS Document */
+@font-face {
+    font-family: Univers55Roman;
+    src: url("Univers55Roman.otf");
+}
+
+@font-face {
+    font-family: Univers55RomanItalic;
+    src: url(Univers55RomanItalic.otf);
+}
+
+@font-face {
+    font-family: Univers85ExtraBlack;
+    src: url("Univers85ExtraBlack.otf")
+}
+
+@font-face {
+    font-family: Univers85ExtraBlackItalic;
+    src: url("Univers85BlackItalic")
+}
+
+body {
+    background-color: #422B25;
+    background-size: cover;
+    background-attachment: scroll;
+    color: #FFFFFF;
+}
+
+/*header {
+    margin-top: 0;
+    margin-bottom: 3%;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 16px;
+    text-align: center;
+    background-color: #AD3C1E;
+    height: 100px;
+}
+
+header img {
+    float: left;
+}*/
+
+main {
+    margin-top: 150px;
+    /* float: left; */
+    margin-left: 57px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+/** {
+    box-sizing: border-box;
+}*/
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+     -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;/* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+p {
+    font-family: Univers55Roman, Arial, Helvetica, sans-serif;
+}
+
+.rectangletop {
+    height: 50px;
+    width: 100%;
+    background-color:#FFFFFF;
+    /* margin: -25 0; */
+  }
+
+.rectanglemiddle {
+    height: 50px;
+    width: 100%;
+    background-color:#FFFFFF;
+    margin: 0 0;
+  }
+
+.rectanglebottom {
+    height: 50px;
+    width: 100%;
+    background-color:#FFFFFF;
+    margin: 300px 0;
+  }
+
+h1 {
+    display: block;
+    font-family: Univers85ExtraBlack, Arial, Helvetica, sans-serif;
+    /* font-size: 400px */
+    /* text-align: left; */
+    /*font-style: large;
+    font-size: 100%; 
+    letter-spacing: 3px;
+    word-spacing: 2px;*/
+    height: 8px;
+    /* font-weight: 400; */
+    padding-bottom: 10px;
+}
+
+div img {
+    width: 500px;
+}
+
+h2  {
+    font-family: Univers85ExtraBlack, Arial, Helvetica, sans-serif;
+    display: inline;
+    /* padding-top: 10px; */
+    /* font-size: 150%; */
+    /* margin-left: 2px; */
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    /* letter-spacing: 1px; */
+    
+}
+.donut {
+    color: yellow;
+}
+
+/* main div {
+    margin: 0 0 100 0; 
+    float: right;
+
+} */
+
+#halfdonut {
+    /*float: right;*/
+    width: 750px;
+    position: absolute;
+    right: 0;
+    top: 300px;
+}
+
+#delightlogo {
+    margin-left: 42px;
+    margin-top: -205px;
+}
+
+.footer {
+    font-size:100%;
+
+}
+
